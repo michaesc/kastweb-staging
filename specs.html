@@ -1,86 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Kastelo Open Source Hardware Wallet</title>
-        <meta name="description" content="Kastelo is an open-source hardware wallet schematic funded by the Monero community">
-        
-        <link rel="stylesheet" href="css/custom.css">
-        
-        <link rel="canonical" href="#">
-        <link rel="alternate" title="Kastelo, hardware wallet schematic" href="#">
-
-        <meta property="og:title" content="Kastelo, hardware wallet schematic">
-        <meta property="og:type" content="website">
-
-        <meta name="twitter:title" content="Kastelo, hardware wallet schematic">
-        
-        <link rel="icon" type="image/x-icon" href="img/favicon.png"/>
-
-        <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon/apple-icon-precomposed.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-        
-   </head>
+  {% include head.html %}
 
    <body>
     <div id="page" class="container-fluid">     
-        <header>
-               <nav class="mobile-nav mob-nav">
-                    <div class="row logo-wrap start-xs middle-xs">
-                        <div class="col-xs-12">
-                            <a href="index.html"><img src="img/kastelo-logo.png" alt="Kastelo Logo" class="logo"></a>
-                        </div> 
-                    </div>
-                    <input class="burger-check" id="mobile-burger" type="checkbox">
-                    <label for="mobile-burger" class="hamburger hamburger--collapse">
-                        <span class="hamburger-box">
-                            <span class="hamburger-inner"></span>
-                        </span>
-                    </label>
-                    <div class="slide-in-nav">
-                        <div class="row center-xs">
-                            <div class="col-xs-12">
-                                <ul>
-                                    <li class="nav-item">
-                                        <a href="template.html">Specs</a>
-                                    </li>
-                                     <li class="nav-item">
-                                        <a href="store.html">Store</a> 
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact.html">Contact</a> 
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>         
-                    </div>
-               </nav>
-               
-               <nav class="desktop-nav container">
-                    <div class="row middle-xs nav-items">
-                            <div class="col-sm-5">
-                                <a href="index.html" class="logo-wrap"><img src="img/kastelo-logo.png" alt="Kastelo Logo" class="logo"></a>
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="row end-xs">
-                                    <div class="col nav-item">
-                                        <a href="template.html">Specs</a>
-                                    </div>
-                                     <div class="col nav-item">
-                                        <a href="store.html">Store</a> 
-                                    </div>
-                                    <div class="col nav-item">
-                                        <a href="#contact">Contact</a> 
-                                    </div>
-                                </div>
-                            </div>
-                                
-                    </div>
-               </nav>
-           </header>
+        {% include navigation.html %}
         
            <section class="site_section template_hero">
                <div class="container">
@@ -103,26 +28,7 @@
                     </article>
                 </div>
         </section>
-           
-        <footer class="container-fluid site_section" id="contact">
-                  <div class="container">
-                   <div class="row center-xs">
-                        <div class="col-xs-12">
-                            <h2>Contact</h2>
-                            <p class="email"><a href="mailto:hardware@getmonero.org">hardware@getmonero.org</a></p>      
-                        </div>
-                   </div>
-                   <div class="row bottom_row middle-xs between-md center-xs">
-                       <div class="col-sm-6 col-xs-12 last-xs">
-                           <p id="copy">Copyright © 2018 Kastelo. All rights reserved.</p>
-                       </div>
-                       <div class="col-sm-6 col-xs-12 info">
-                           <p><a href="#">License</a></p>
-                           <p><a href="https://getmonero.org">The Monero Project</a></p>
-                       </div>
-                   </div>
-                </div>
-        </footer>
+        {% include footer.html %}
      </div>
   </body>
 </html>

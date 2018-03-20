@@ -1,0 +1,5 @@
+title: Kastelo, Open Hardware Wallet Spec
+description: Kastelo, an open source hardware wallet spec funded by the Monero community
+baseurl: ""
+permalink: /:title/
+exclude: [".gitignore", "README.md"]
