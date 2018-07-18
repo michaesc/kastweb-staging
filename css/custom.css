@@ -193,7 +193,6 @@
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
-  text-align: center;
 }
 
 .end-xs {
@@ -1416,11 +1415,23 @@ h1.page_header, h2, h3, h4 {
     font-weight: 700;
 }
 
+.center-xs h1.page_header, .center-xs p.page_header_description {
+    text-align: center;
+}
+
+p.page_header_description {
+    font-size: 1.5rem;
+}
+
 
 h1.page_header, h2 {
     font-size: 2.375rem;
     line-height: 1.5;
     margin-bottom: 1.5rem;
+}
+
+.center-xs h2, .center-xs #comingsoon, .center-xs p.email {
+    text-align: center;
 }
 
 h4 {
@@ -1850,7 +1861,7 @@ img.logo {
 }
 
 #boards {
-    background-color: #f5f6f8;
+    background-color: #ffffff;
 }
 
 #boards p#comingsoon {
@@ -1882,10 +1893,15 @@ img.logo {
     margin-bottom: 1rem;
 }
 
+#about_kastelo p {
+    line-height: 1.7;
+    font-size: 1.5rem;
+}
+
 /******GALLERY STYLE*****/
 
 #gallery {
-    background-color: #fff;
+    background-color: #f5f6f8;
 }
 
 /***Gallery by Paul Noble ***/
@@ -2003,6 +2019,45 @@ img.logo {
   opacity: 1;
 }
 
+/** BADGE LINK STYLING **/
+
+.explorer-link {
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+    max-width: 30%;
+}
+
+.explorer-link a {
+    display: block;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 2rem;
+    -webkit-box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+    -webkit-transition: all .15s ease;
+-moz-transition: all .15s ease;
+-o-transition: all .15s ease;
+transition: all .15s ease;
+}
+
+.explorer-link a:hover, .explorer-link a:focus, .explorer-link a:active {
+    display: block;
+    -webkit-box-shadow: 0 15px 35px rgba(50,50,93,.3),0 5px 15px rgba(0,0,0,.07);
+    box-shadow: 0 15px 35px rgba(50,50,93,.3),0 5px 15px rgba(0,0,0,.07);
+}
+
+.explorer-link img.board-badge {
+    width: 10rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.explorer-link h3.badge-title {
+    text-align: center;
+    padding-top: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
 /** TEMPLATE PAGE **/
 
 article.text p {
@@ -2060,6 +2115,16 @@ footer.site_section {
     margin-top: 3rem;
 }
     
+#about_kastelo p, p.page_header_description {
+    font-size: 1.3rem;
+}
+    
+.explorer-link {
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+    max-width: 40%;
+}
+    
 }
 
 @media only screen and (max-width: 48rem) {
@@ -2082,6 +2147,16 @@ footer.site_section {
     
 .site_section {
     padding: 3rem 0 3.4rem 0;
+}
+    
+#about_kastelo p, p.page_header_description {
+    font-size: 1.1rem;
+}
+    
+.explorer-link {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
 }
     
 }
@@ -2176,7 +2251,13 @@ footer.site_section {
 
 .slide {
   height: 15rem;
-}    
+}   
+    
+.explorer-link {
+    -ms-flex-preferred-size: 90%;
+    flex-basis: 90%;
+    max-width: 90%;
+}
     
 }
 
