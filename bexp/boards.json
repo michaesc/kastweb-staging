@@ -1,8 +1,8 @@
 [
 {
   "title": "Monero DefCon Badge (Regular)",
-  "board": "monero",
-  "image": "monero.svg"
+  "board": "normal",
+  "image": "normal.svg"
 },
 {
   "title" : "Monero DefCon Badge (Alien)",
