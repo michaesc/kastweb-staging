@@ -1,5 +1,17 @@
-[ {
-  "title": "Monero Defcon NFC Badge",
-  "board": "normal",
-  "image": "normal.svg"
-} ]
+[
+{
+  "title": "Monero DefCon Badge (Regular)",
+  "board": "monero",
+  "image": "monero.svg"
+},
+{
+  "title" : "Monero DefCon Badge (Alien)",
+  "board" : "alien",
+  "image" : "alien.svg"
+},
+{
+  "title" : "Monero DefCon Badge (Boss)",
+  "board" : "boss",
+  "image" : "boss.svg"
+}
+]

@@ -1,8 +1,8 @@
 {
-	"title": "Monero Defcon NFC Regular Badge",
+	"title": "Monero Defcon NFC Alien Badge",
 	"views": {
 		"front": {
-			"image": "normal.svg",
+			"image": "alien.svg",
 			"components": {
 				"LEDS": {},
 				"POWER_INPUT": {
