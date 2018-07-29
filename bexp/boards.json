@@ -1,5 +1,5 @@
 [ {
   "title": "Monero Defcon NFC Badge",
-  "board": "defconfc",
-  "image": "defconfc.svg"
+  "board": "normal",
+  "image": "normal.svg"
 } ]

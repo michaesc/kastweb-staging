@@ -2,7 +2,7 @@
 	"title": "Monero Defcon NFC Badge",
 	"views": {
 		"front": {
-			"image": "defconfc.svg",
+			"image": "normal.svg",
 			"components": {
 				"LEDS": {},
 				"POWER_INPUT": {
