@@ -1,5 +1,10 @@
 [
 {
+  "title": "HCPP18 NFC Badge",
+  "board": "hcpp18",
+  "image": "hcpp18.svg"
+},
+{
   "title": "Monero DefCon Badge (Regular)",
   "board": "normal",
   "image": "normal.svg"

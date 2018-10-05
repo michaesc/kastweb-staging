@@ -1,0 +1,34 @@
+{
+	"title": "HCPP18 NFC Badge",
+	"views": {
+		"front": {
+			"image": "hcpp18.svg",
+			"components": {
+				"LEDS": {},
+				"POWER_INPUT": {
+					"name": "power input",
+					"description": "Power input, ON / OFF"
+				},
+				"ANTENNA" : {
+					"name" : "NFC Antenna",
+					"description" : "That's a NFC Antenna, Awesome!"
+				},
+                "ANIMATE" : {
+                    "name" : "Animate",
+                    "description" : "Animate me!"
+                },
+                "AVR_MCU" : {
+                    "name" : "AVR_MCU",
+                    "description" : ""
+                },
+                "STOR_BTN_1" : {},
+                "STORAGE_1" : {},
+                "STOR_BTN_2" : {},
+                "STORAGE_2" : {},
+                "ARDUINO_AVR_INTERFACE" : {},
+                "TAG_CONNECT_AVR_INTERFACE" : {},
+                "TRANSISTORS" : {}
+			}
+		}
+	}
+}
