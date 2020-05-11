@@ -5,17 +5,17 @@
   "image": "hcpp18.svg"
 },
 {
-  "title": "Monero DefCon Badge (Regular)",
+  "title": "Monero Badge (Regular)",
   "board": "normal",
   "image": "normal.svg"
 },
 {
-  "title" : "Monero DefCon Badge (Alien)",
+  "title" : "Monero Badge (Alien)",
   "board" : "alien",
   "image" : "alien.svg"
 },
 {
-  "title" : "Monero DefCon Badge (Boss)",
+  "title" : "Monero Badge (Boss)",
   "board" : "boss",
   "image" : "boss.svg"
 }
